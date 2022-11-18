@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Barra de navegacion */
+.nav__container{
+    height: 100px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.nav__list{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(152, 149, 149);
+    margin-left: 30px;
+}
+
+ul>li{
+    list-style: none;
+}
+
+.container-fluid{
+    height: 500px;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: .1px;
+}
+.contenido{
+    width:50%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+    color: rgb(152, 149, 149);
+    margin-top: 140px;
+
+}
+h2{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*GALERIA-----------------------------*/
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+#galeria img:hover{
+    border: 5px solid #f7f7f7;
+}
+
+/*------------------------------------------*/
+
+/*NEWSLETTER---------------------------*/
+#newsletter.section {
+    border-top: 3px solid #E4E7ED;
+    border-bottom: 1px solid rgb(171, 167, 167);
+    margin-top: 30px;
+
+  }
+  
+  .newsletter {
+    text-align: center;
+  }
+  
+  .newsletter p {
+    font-size: 24px;
+  }
+  
+  .newsletter form {
+    position: relative;
+    max-width: 520px;
+    margin: 30px auto;
+  }
+
+  
+  .newsletter form .input {
+    width: calc(100% - 150px);
+    margin-right: -4px;
+    border-radius: 40px 0px 0px 40px;
+  }
+  
+  .newsletter form .newsletter-btn {
+    width: 130px;
+    height: 40px;
+    font-weight: 700;
+    background: rgb(233, 161, 28);
+    color: #FFF;
+    border: none;
+    border-radius: 0px 40px 40px 0px;
+  }
+  
+  .newsletter .newsletter-follow {
+    text-align: center;
+  }
+  
+  .newsletter .newsletter-follow li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .newsletter .newsletter-follow li:last-child {
+    margin-right: 0px;
+  }
+  
+  .newsletter .newsletter-follow li a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #E4E7ED;
+    background-color: #FFF;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+  }
+  
+  .newsletter .newsletter-follow li a:hover, .newsletter .newsletter-follow li a:focus {
+    background-color: #d2dbee;
+    color: #D10024;
+  }
+  /*/ NEWSLATTER*/
+/*CONTACTOS-------------------------------------------*/
+.container{
+    margin-top: 15px;
+}
+
+iframe{
+    max-width: 100%;
+}
+/* /CONTACTOS--------------------------------------------*/
+
+/* POLITICA ----------------------------------------------*/
+.caja{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* /POLITICA------------------------------------------------ */
+
+  /*FOOTER---------------------------------------*/
+
+  .footer-container-fluid{
+    width: 100% ;
+    margin: 0 auto;
+   overflow: hidden;
+  }
+.text-secondary{
+    list-style: none;
+}
+ 
+
+  /* / FOTTER-----------------------------------------*/
+  /* Responsive imagen */
+  @media screen and (max-width:900px){
+    h2{
+        padding-top: 40px;
+        text-align: center;
+        font-size: 45px;
+        text-transform: uppercase;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+    h3{
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+  }
+
+  @media screen and (max-width:760px){
+    h2{
+        padding-top: 40px;
+        text-align: center;
+        font-size: 45px;
+        text-transform: uppercase;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+    h3{
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+  }
